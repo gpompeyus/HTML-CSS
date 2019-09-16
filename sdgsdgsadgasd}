@@ -1,0 +1,41 @@
+[33mcommit 7875513dd87c405a0adf2a64cde898263ec36f05[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: gpompeyus <german.pompeyus@gmail.com>
+Date:   Sat Sep 14 20:28:14 2019 -0400
+
+    ejemplo de usar emmet
+
+[33mcommit db602cf1493fef74b44980114b8743e205e27b5d[m
+Author: gpompeyus <german.pompeyus@gmail.com>
+Date:   Sat Sep 14 20:19:28 2019 -0400
+
+    agregue la carpeta 005
+
+[33mcommit c868d3c4eaa23c22afbdcf652673c87cc06a5b27[m
+Author: gpompeyus <german.pompeyus@gmail.com>
+Date:   Sat Sep 14 19:39:17 2019 -0400
+
+    Borre el ultimo archivo 003
+
+[33mcommit b2fea8794e54b8eff82735e9bcd740d28eba9138[m
+Author: gpompeyus <german.pompeyus@gmail.com>
+Date:   Sat Sep 14 19:37:10 2019 -0400
+
+    quite los archivos 002
+
+[33mcommit 7fa93d6d2004312249e75e9da3818c45afdd3494[m
+Author: gpompeyus <german.pompeyus@gmail.com>
+Date:   Sat Sep 14 19:31:14 2019 -0400
+
+    quite el archivo001
+
+[33mcommit a55ecc16fb6a06160a2b7474deb7ebd637995866[m
+Author: gpompeyus <german.pompeyus@gmail.com>
+Date:   Sat Sep 14 19:23:36 2019 -0400
+
+    Mis primeros tres archivos agregado
+
+[33mcommit 96d01518f74d79f2c69ac9d8eb58321768c6cc77[m
+Author: gpompeyus <german.pompeyus@gmail.com>
+Date:   Sat Sep 14 19:11:23 2019 -0400
+
+    agrega el archivo .gitignore
