@@ -1,0 +1,9 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: darkblue;
+    border: 20px groove tomato;
+    box-sizing: border-box;
+    margin: 80px 40px 30px  80px;
+
+}
