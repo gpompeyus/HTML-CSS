@@ -1,0 +1,44 @@
+div {
+   width: 200px;
+   height: 200px;
+   border: 1px dotted dodgerblue;
+   border-style: dashed blue;
+   border-radius: 200px;
+   background-image: url(img/leaf.png);
+   background-size: cover;
+   display: inline-block;
+   /* box-sizing: border-box;
+   adapta el contenido */
+   
+   
+}
+
+img {
+   width: 400px;
+   height: 200px;
+   border: 5px solid blue;
+}
+
+.estrella1 {
+   width: 400px;
+   height: 400px;
+   border: 5px solid orange;
+   border-radius: 100%;
+   padding: 20px;
+   margin: 0 auto;
+   display: block;
+   /* margin: 0 auto;
+   display: block; centra una imagen*/
+
+
+}
+.estrella2 {
+   width: 400px;
+   height: 200px;
+   border: 10px groove violet;
+   padding: 100px;
+   margin: 100px;
+   box-sizing: border-box
+   
+    
+}
