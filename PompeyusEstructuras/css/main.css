@@ -1,9 +1,19 @@
-div{
-    width: 300px;
-    height: 200px;
-    background-color: darkblue;
-    border: 20px groove tomato;
-    box-sizing: border-box;
-    margin: 20px 15px 40px 35px;
+div {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid blue;
+}
+
+header{
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: dashed red;
+    align-items: center;
+    align-content: stretch;
+    align-items: stretch;
 
 }
+
