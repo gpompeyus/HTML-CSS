@@ -33,7 +33,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: "Arial";
+    font-family: 'Roboto', sans-serif;
     font-size: .9rem;
 }
 
