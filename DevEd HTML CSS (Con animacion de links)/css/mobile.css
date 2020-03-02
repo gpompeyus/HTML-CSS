@@ -1,0 +1,105 @@
+body {
+    overflow-x: hidden;
+}
+.portada{ /*Fondo de Portada*/
+    height: 100vh;
+    background-image: url("../img/portada_madera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+
+nav { /*Barra de Navegacion*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    min-height: 8vh;
+    background-color: whitesmoke;
+    opacity: .8;
+    font-family: "Poppins", sans-serif;
+}
+
+.burger { /*div Hamgurguesa*/
+    display: block;
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+}
+
+.burger div { /*rayitas de la hamburguesa*/
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+#logo-catolica {
+    position: relative;
+    right: 20px;
+    background-image: url("../img/logo_catolica.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 60px;
+}
+
+.nav-links {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60vw;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease-in;
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+.nav-links li {
+    position: relative;
+    top: 80px;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+
+.nav-links a {
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
